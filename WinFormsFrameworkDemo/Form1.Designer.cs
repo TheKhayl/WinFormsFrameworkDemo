@@ -38,6 +38,7 @@
             this.label2 = new System.Windows.Forms.Label();
             this.progressBar2 = new System.Windows.Forms.ProgressBar();
             this.dataGridView2 = new System.Windows.Forms.DataGridView();
+            this.checkBox1 = new System.Windows.Forms.CheckBox();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView2)).BeginInit();
@@ -110,6 +111,7 @@
             this.label2.Size = new System.Drawing.Size(51, 20);
             this.label2.TabIndex = 9;
             this.label2.Text = "label2";
+            // 
             // progressBar2
             // 
             this.progressBar2.Location = new System.Drawing.Point(188, 299);
@@ -127,11 +129,22 @@
             this.dataGridView2.Size = new System.Drawing.Size(229, 105);
             this.dataGridView2.TabIndex = 10;
             // 
+            // checkBox1
+            // 
+            this.checkBox1.AutoSize = true;
+            this.checkBox1.Location = new System.Drawing.Point(263, 250);
+            this.checkBox1.Name = "checkBox1";
+            this.checkBox1.Size = new System.Drawing.Size(113, 24);
+            this.checkBox1.TabIndex = 11;
+            this.checkBox1.Text = "checkBox1";
+            this.checkBox1.UseVisualStyleBackColor = true;
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.checkBox1);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.dataGridView2);
             this.Controls.Add(this.progressBar2);
@@ -164,6 +177,7 @@
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.ProgressBar progressBar2;
         private System.Windows.Forms.DataGridView dataGridView2;
+        private System.Windows.Forms.CheckBox checkBox1;
     }
 }
 
